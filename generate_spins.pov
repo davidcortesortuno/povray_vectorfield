@@ -36,7 +36,6 @@ light_source { <10, 15, -10>
 // 3 coordinates, 3 spin directions, and rgb colour values
 // from every row
 #macro spins(cx, cy, cz, sx, sy, sz, rr, gg, bb)
-union{
 cone {<cx + 0.5 * sx * cone_scale, 
        cy + 0.5 * sy * cone_scale,
        cz + 0.5 * sz * cone_scale
@@ -59,7 +58,6 @@ cone {<cx + 0.5 * sx * cone_scale,
       interior{ ior 1.3 }
       // normal {bumps 0.1 scale 0.01}
      }
-}
 #end
 
 // Include file for the macro
