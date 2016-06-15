@@ -21,18 +21,7 @@ Contact to: d.i.cortes@soton.ac.uk
 
 # FIDIMAG Simulation imports:
 from fidimag.atomistic import Sim
-from fidimag.common import CuboidMesh
 from fidimag.atomistic.hexagonal_mesh import HexagonalMesh
-from fidimag.atomistic import DMI
-from fidimag.atomistic import UniformExchange
-from fidimag.atomistic import Zeeman
-from fidimag.atomistic import Constant
-
-# Import physical constants from fidimag
-const = Constant()
-
-# Import the NEB method
-from fidimag.common.neb_cartesian import NEB_Sundials
 
 # Numpy utilities
 import numpy as np
